@@ -1,0 +1,16 @@
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\bin\Debug\net5.0\hello-dot.exe
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\bin\Debug\net5.0\hello-dot.deps.json
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\bin\Debug\net5.0\hello-dot.runtimeconfig.json
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\bin\Debug\net5.0\hello-dot.runtimeconfig.dev.json
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\bin\Debug\net5.0\hello-dot.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\bin\Debug\net5.0\ref\hello-dot.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\bin\Debug\net5.0\hello-dot.pdb
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.csproj.AssemblyReference.cache
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.AssemblyInfoInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.AssemblyInfo.cs
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.csproj.CoreCompileInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\ref\hello-dot.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.pdb
+C:\Users\gstsa\Documents\programming\C#\session-1\hello-dot\obj\Debug\net5.0\hello-dot.genruntimeconfig.cache

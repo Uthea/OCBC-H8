@@ -1,0 +1,16 @@
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\bin\Debug\net5.0\readline.exe
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\bin\Debug\net5.0\readline.deps.json
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\bin\Debug\net5.0\readline.runtimeconfig.json
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\bin\Debug\net5.0\readline.runtimeconfig.dev.json
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\bin\Debug\net5.0\readline.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\bin\Debug\net5.0\ref\readline.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\bin\Debug\net5.0\readline.pdb
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.csproj.AssemblyReference.cache
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.AssemblyInfoInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.AssemblyInfo.cs
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.csproj.CoreCompileInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\ref\readline.dll
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.pdb
+C:\Users\gstsa\Documents\programming\C#\session-1\readline\obj\Debug\net5.0\readline.genruntimeconfig.cache
