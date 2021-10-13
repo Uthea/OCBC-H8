@@ -1,0 +1,16 @@
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.csproj.AssemblyReference.cache
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.AssemblyInfoInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.AssemblyInfo.cs
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.csproj.CoreCompileInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\bin\Debug\net5.0\pro1.exe
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\bin\Debug\net5.0\pro1.deps.json
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\bin\Debug\net5.0\pro1.runtimeconfig.json
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\bin\Debug\net5.0\pro1.runtimeconfig.dev.json
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\bin\Debug\net5.0\pro1.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\bin\Debug\net5.0\ref\pro1.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\bin\Debug\net5.0\pro1.pdb
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\ref\pro1.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.pdb
+C:\Users\gstsa\Documents\programming\C#\session-05\pro1\obj\Debug\net5.0\pro1.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.csproj.AssemblyReference.cache
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.AssemblyInfoInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.AssemblyInfo.cs
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.csproj.CoreCompileInputs.cache
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\bin\Debug\net5.0\proUseCase.exe
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\bin\Debug\net5.0\proUseCase.deps.json
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\bin\Debug\net5.0\proUseCase.runtimeconfig.json
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\bin\Debug\net5.0\proUseCase.runtimeconfig.dev.json
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\bin\Debug\net5.0\proUseCase.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\bin\Debug\net5.0\ref\proUseCase.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\bin\Debug\net5.0\proUseCase.pdb
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\ref\proUseCase.dll
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.pdb
+C:\Users\gstsa\Documents\programming\C#\session-05\proUseCase\obj\Debug\net5.0\proUseCase.genruntimeconfig.cache
