@@ -67,7 +67,7 @@ namespace TodoAppWithJWT.Controllers
                 if(isCreated.Succeeded)
                 {
                     //var jwtToken = await GenerateJwtToken(newUser);
-
+                    return new JsonResult("Register success !!") {StatusCode = 200};
                     return Ok("Register success !!");
                 }
                 else

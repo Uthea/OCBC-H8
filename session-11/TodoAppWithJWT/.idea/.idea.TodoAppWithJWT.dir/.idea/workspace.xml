@@ -6,11 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98494f4-854f-4867-a550-9a0dd41b9681" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TodoAppWithJWTRefreshToken/TodoAppWithJWTRefreshToken.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session-10/TodoAppWithJWT/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../session-10/TodoAppWithJWT/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session-10/TodoAppWithJWT/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../session-10/TodoAppWithJWT/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session-10/TodoAppWithJWT/app.db-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session-10/TodoAppWithJWT/app.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWithJWT.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoAppWithJWT.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoAppWithJWTRefreshToken/Controllers/AuthManagementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoAppWithJWTRefreshToken/Controllers/AuthManagementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoAppWithJWTRefreshToken/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoAppWithJWTRefreshToken/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoAppWithJWTRefreshToken/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoAppWithJWTRefreshToken/app.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1634461181972" duration="81000" />
       <workItem from="1634462120860" duration="1934000" />
       <workItem from="1634523233503" duration="313000" />
-      <workItem from="1634525107191" duration="6926000" />
+      <workItem from="1634525107191" duration="9544000" />
     </task>
     <servers />
   </component>

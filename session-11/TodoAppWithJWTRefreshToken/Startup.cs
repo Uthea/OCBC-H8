@@ -65,31 +65,30 @@ namespace TodoAppWithJWT
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
+                var jwtSecurityScheme = new OpenApiSecurityScheme()
+                {
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Description =
+                        "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter your token in the text input below.\r\n\r\nExample: \"12345abcdef\"",
+                    Reference = new OpenApiReference
+                    {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = JwtBearerDefaults.AuthenticationScheme
+                    }
+                }; 
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoAppWithJWT", Version = "v1" });
-                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()  
-                {  
-                    Name = "Authorization",  
-                    Type = SecuritySchemeType.ApiKey,  
-                    Scheme = "Bearer",  
-                    BearerFormat = "JWT",  
-                    In = ParameterLocation.Header,  
-                    Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 12345abcdef\"",  
-                });  
+                c.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);  
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement  
                 {  
-                    {  
-                          new OpenApiSecurityScheme  
-                            {  
-                                Reference = new OpenApiReference  
-                                {  
-                                    Type = ReferenceType.SecurityScheme,  
-                                    Id = "Bearer"  
-                                }  
-                            },  
-                            new string[] {}  
-  
+                    {
+                       jwtSecurityScheme, Array.Empty<string>()
                     }  
                 }); 
+                
             });
         }
 
