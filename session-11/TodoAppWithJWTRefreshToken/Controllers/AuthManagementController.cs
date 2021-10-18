@@ -141,7 +141,7 @@ namespace TodoAppWithJWT.Controllers
 
             var key = Encoding.ASCII.GetBytes(_jwtConfig.Secret);
 
-            var expireTime = DateTime.UtcNow.AddHours(30);
+            var expireTime = DateTime.UtcNow.AddSeconds(30);
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {

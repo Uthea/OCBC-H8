@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ijWwP2ujmayYu5M+bIDjQow1onI/rwAxHprB8tVpVJg3jG54CCj3H+ulhkLEKSGL+S1hGXWq0aLMGcrmex76ag==",
+  "dgSpecHash": "Q1m0xYWFAlWamFDkz3yWF6pmwdY+mpmJPuoeiSfGJXkS97JlXJ9tUMC4jYymvHw23ETCQqtGINVrz7d3zAyvNw==",
   "success": true,
-  "projectFilePath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing.Tests/Testing.Tests.csproj",
+  "projectFilePath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/Testing.Tests.csproj",
   "expectedPackageFiles": [
     "/home/kudryavka/.nuget/packages/bouncycastle.netcore/1.8.5/bouncycastle.netcore.1.8.5.nupkg.sha512",
     "/home/kudryavka/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing.Tests/Testing.Tests.csproj": {}
+    "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/Testing.Tests.csproj": {}
   },
   "projects": {
-    "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing.Tests/Testing.Tests.csproj": {
+    "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/Testing.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing.Tests/Testing.Tests.csproj",
+        "projectUniqueName": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/Testing.Tests.csproj",
         "projectName": "Testing.Tests",
-        "projectPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing.Tests/Testing.Tests.csproj",
+        "projectPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/Testing.Tests.csproj",
         "packagesPath": "/home/kudryavka/.nuget/packages/",
-        "outputPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing.Tests/obj/",
+        "outputPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kudryavka/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing/Testing.csproj": {
-                "projectPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing/Testing.csproj"
+              "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing/Testing.csproj": {
+                "projectPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing/Testing.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing/Testing.csproj": {
+    "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing/Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing/Testing.csproj",
+        "projectUniqueName": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing/Testing.csproj",
         "projectName": "Testing",
-        "projectPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing/Testing.csproj",
+        "projectPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing/Testing.csproj",
         "packagesPath": "/home/kudryavka/.nuget/packages/",
-        "outputPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-11/Testing/Testing/obj/",
+        "outputPath": "/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kudryavka/.nuget/NuGet/NuGet.Config"

@@ -5,7 +5,7 @@ using Testing.Models;
 
 namespace Testing.Services
 {
-    public class EmployeeService
+    public class EmployeeService : IEmployeeService
     {
         #region Property
 
