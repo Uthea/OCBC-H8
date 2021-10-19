@@ -8,7 +8,7 @@ using Testing.Models;
 namespace Testing.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20211018063735_initial")]
+    [Migration("20211019003027_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
