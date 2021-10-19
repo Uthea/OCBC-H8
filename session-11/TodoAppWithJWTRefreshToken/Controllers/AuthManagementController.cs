@@ -220,132 +220,117 @@ namespace TodoAppWithJWT.Controllers
 
         private async Task<AuthResult> VerifyAndGenerateToken(TokenRequest tokenRequest)
         {
-            var jwtTokenHandler = new JwtSecurityTokenHandler();
+            var tokenInVerification = ValidateJwtTokenAlgorithm(tokenRequest.Token);
 
+            if (tokenInVerification == null)
+            {
+                return null;
+            }
+
+            var utcExpiryDate = long.Parse(tokenInVerification.Claims.FirstOrDefault(
+                x => x.Type == JwtRegisteredClaimNames.Exp).Value);
+
+            var expiryDate = UnixTimeStampToDateTime(utcExpiryDate) ;
+
+            if (expiryDate > DateTime.UtcNow)
+            {
+                return new AuthResult()
+                {
+                    Success = false,
+                    Errors = new List<string>()
+                    {
+                        "Token has not expired yet"
+                    }
+                };
+            }
+
+            var storedToken = await _apiDbContext.RefreshTokens.FirstOrDefaultAsync(
+                x => x.Token == tokenRequest.RefreshToken);
+
+            if (storedToken == null)
+            {
+                return new AuthResult()
+                {
+                    Success = false,
+                    Errors = new List<string>()
+                    {
+                        "Token does not exist"
+                    }
+                };
+            }
+
+            if (storedToken.IsRevorked)
+            {
+                return new AuthResult()
+                {
+                    Success = false,
+                    Errors = new List<string>()
+                    {
+                        "Token has been revoked"
+                    }
+                };
+            }
+
+            var jti = tokenInVerification.Claims.FirstOrDefault(
+                x => x.Type == JwtRegisteredClaimNames.Jti).Value;
+
+            if (storedToken.JwtId != jti)
+            {
+                return new AuthResult()
+                {
+                    Success = false,
+                    Errors = new List<string>()
+                    {
+                        "Token doesn't match"
+                    }
+                };
+                
+            }
+            if (storedToken.IsUsed)
+             {
+                 return new AuthResult()
+                 {
+                     Success = false,
+                     Errors = new List<string>()
+                     {
+                         "Token has been used"
+                     }
+                 };
+             }
+            
+            storedToken.IsUsed = true;
+            _apiDbContext.RefreshTokens.Update(storedToken);
+            await _apiDbContext.SaveChangesAsync();
+
+            var dbUser = await _userManager.FindByIdAsync(storedToken.UserId);
+            return await GenerateJwtToken(dbUser);
+        }
+
+        private ClaimsPrincipal ValidateJwtTokenAlgorithm(string token)
+        {
             try
             {
+                var jwtTokenHandler = new JwtSecurityTokenHandler();
                 var tokenInVerification = jwtTokenHandler.ValidateToken(
-                    tokenRequest.Token,
-                    _tokenValidationParameters,
-                    out var validatedToken);
-
-                if (validatedToken is JwtSecurityToken jwtSecurityToken)
+                                    token,
+                                    _tokenValidationParameters,
+                                    out var validatedToken);
+                
+                if (validatedToken is JwtSecurityToken jwtSecurityToken &&
+                    jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var result = jwtSecurityToken.Header.Alg.Equals(
-                        SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase);
-
-                    if (result == false)
-                    {
-                        return null;
-                    }
-                }
-
-                var utcExpiryDate = long.Parse(tokenInVerification.Claims.FirstOrDefault(
-                    x => x.Type == JwtRegisteredClaimNames.Exp).Value);
-
-                var expiryDate = UnixTimeStampToDateTime(utcExpiryDate) ;
-
-                if (expiryDate > DateTime.UtcNow)
-                {
-                    return new AuthResult()
-                    {
-                        Success = false,
-                        Errors = new List<string>()
-                        {
-                            "Token has not yet expired"
-                        }
-                    };
-                }
-
-                var storedToken = await _apiDbContext.RefreshTokens.FirstOrDefaultAsync(
-                    x => x.Token == tokenRequest.RefreshToken);
-
-                if (storedToken == null)
-                {
-                    return new AuthResult()
-                    {
-                        Success = false,
-                        Errors = new List<string>()
-                        {
-                            "Token does not exist"
-                        }
-                    };
-                }
-
-                if (storedToken.IsUsed)
-                {
-                    return new AuthResult()
-                    {
-                        Success = false,
-                        Errors = new List<string>()
-                        {
-                            "Token has been used"
-                        }
-                    };
-                }
-
-                if (storedToken.IsRevorked)
-                {
-                    return new AuthResult()
-                    {
-                        Success = false,
-                        Errors = new List<string>()
-                        {
-                            "Token has been revoked"
-                        }
-                    };
-                }
-
-                var jti = tokenInVerification.Claims.FirstOrDefault(
-                    x => x.Type == JwtRegisteredClaimNames.Jti).Value;
-
-                if (storedToken.JwtId != jti)
-                {
-                    return new AuthResult()
-                    {
-                        Success = false,
-                        Errors = new List<string>()
-                        {
-                            "Token doesn't match"
-                        }
-                    };
-                }
-
-
-                storedToken.IsUsed = true;
-                _apiDbContext.RefreshTokens.Update(storedToken);
-                await _apiDbContext.SaveChangesAsync();
-
-                var dbUser = await _userManager.FindByIdAsync(storedToken.UserId);
-                return await GenerateJwtToken(dbUser);
-            }
-            catch (Exception ex)
-            {
-                if (ex.Message.Contains("Lifetime validation failed. The token is expired."))
-                {
-                    return new AuthResult()
-                    {
-                        Success = false,
-                        Errors = new List<string>()
-                        {
-                            "Token has expired please re-login"
-                        }
-                    };
+                    return tokenInVerification;
                 }
                 else
                 {
-                    return new AuthResult()
-                    {
-                        Success = false,
-                        Errors = new List<string>()
-                        {
-                            "Something went wrong."
-                        }
-                    };
+                    return null;
                 }
             }
+            catch (Exception e)
+            {
+                return null;
+            } 
         }
-
         private DateTime UnixTimeStampToDateTime(long unixTimeStamp)
         {
             var dateTimeVal = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);

@@ -39,7 +39,6 @@ namespace TodoAppWithJWT
                                     ValidateAudience =false,
                                     ValidateLifetime = true,
                                     RequireExpirationTime = false,
-                                    ClockSkew = TimeSpan.Zero
             };
 
             services.AddSingleton(tokenValidationParameters);
