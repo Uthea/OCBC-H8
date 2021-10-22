@@ -39,7 +39,6 @@ namespace TodoAppWithJWT.Controllers
             _jwtConfig = optionsMonitor.CurrentValue;
             _tokenValidationParameters = tokenValidationParameters;
             _apiDbContext = apiDbContext;
-            //Console.WriteLine(_jwtConfig.Secret);
         }
 
 

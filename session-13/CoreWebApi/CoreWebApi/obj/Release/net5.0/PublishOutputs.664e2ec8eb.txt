@@ -1,0 +1,11 @@
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/CoreWebApi
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/appsettings.Development.json
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/appsettings.json
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/CoreWebApi.dll
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/CoreWebApi.deps.json
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/CoreWebApi.runtimeconfig.json
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/CoreWebApi.pdb
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/Microsoft.OpenApi.dll
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/bin/Release/net5.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

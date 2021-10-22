@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sm6H6TyjdFe2WTHbBTHfqMpAYYmLpSjdZE1d+y9LtfPU/HKw7H2B8Q8WKPM7keF8mQkgdP+edqnW599cZxwaVw==",
+  "success": true,
+  "projectFilePath": "/home/kudryavka/Documents/work/OCBC/OCBC-docker/CoreWebApi/CoreWebApi.csproj",
+  "expectedPackageFiles": [
+    "/home/kudryavka/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/kudryavka/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/kudryavka/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/kudryavka/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/kudryavka/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/kudryavka/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/home/kudryavka/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

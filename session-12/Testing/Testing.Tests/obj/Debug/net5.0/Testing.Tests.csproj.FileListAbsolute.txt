@@ -274,3 +274,4 @@
 /home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/obj/Debug/net5.0/ref/Testing.Tests.dll
 /home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/obj/Debug/net5.0/Testing.Tests.pdb
 /home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/obj/Debug/net5.0/Testing.Tests.genruntimeconfig.cache
+/home/kudryavka/Documents/work/OCBC/OCBC-H8/session-12/Testing/Testing.Tests/bin/Debug/net5.0/Testing.StaticWebAssets.xml
